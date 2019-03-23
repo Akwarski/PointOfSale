@@ -19,7 +19,7 @@ public class Main {
 
         String barCode = "";
 
-        for(int i=0; i<7; i++){
+        for(int i=0; i<products.length; i++){
             products[i] = new Product(names[i], prices[i]);
         }
 
